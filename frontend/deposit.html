@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="css/style.css">
+  <title>Depósito</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Depósito / Transferência</h1>
+    <form method="POST" action="../backend/controllers/deposit.php">
+      <input type="text" name="recipient" placeholder="Nome do destinatário" required>
+      <input type="number" name="amount" placeholder="Valor" required>
+      <button type="submit" name="deposit">Depositar / Transferir</button>
+    </form>
+    <br>
+    <a href="dashboard.html">Voltar ao Dashboard</a>
+  </div>
+</body>
+</html>

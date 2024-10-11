@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="css/style.css">
+  <title>Registro</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Registrar</h1>
+    <form method="POST" action="../backend/controllers/register.php">
+      <input type="text" name="username" placeholder="Nome de usuário" required>
+      <input type="email" name="email" placeholder="E-mail" required>
+      <input type="password" name="password" placeholder="Senha" required>
+      <button type="submit" name="register">Registrar</button>
+    </form>
+    <p>Já tem uma conta? <a href="index.html">Faça login aqui</a></p>
+  </div>
+</body>
+</html>
