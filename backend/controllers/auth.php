@@ -1,5 +1,12 @@
 <?php
 session_start();
+$dados =  (
+$localhost = 'locahost';
+$user = 'root';
+$pass = '';
+$bd = 'use_system';
+);
+
 include('../../config.php');
 
 if (isset($_POST['login'])) {
