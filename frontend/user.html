@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil Bancário</title>
+    <link rel="stylesheet" href="css/user.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Bem-vindo, <span id="userName">João Silva</span></h1>
+            <p>Saldo Atual: <span id="userBalance">R$ 5.000,00</span></p>
+        </header>
+        
+        <section class="transactions">
+            <h2>Histórico de Transações</h2>
+            <ul id="transactionList">
+                <!-- Transações serão adicionadas aqui pelo JavaScript -->
+            </ul>
+        </section>
+
+        <section class="add-transaction">
+            <h2>Adicionar Transação</h2>
+            <form id="transactionForm">
+                <input type="text" id="transactionDesc" placeholder="Descrição" required>
+                <input type="number" id="transactionAmount" placeholder="Valor" required>
+                <button type="submit">Adicionar</button>
+            </form>
+        </section>
+    </div>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
